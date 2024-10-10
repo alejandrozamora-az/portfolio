@@ -45,13 +45,13 @@ export default function About({
                     <LinkedinProfileCard />
                 </div>
                 <div className="col flex-1 main-axis-center cross-axis-center hidden-mobile">
-                    <Image width={400} height={400} src="https://res.cloudinary.com/dlyfwab7x/image/upload/v1713744589/vectors/right_qdr0q9.webp" alt="Abstract modern right - Image by freepik" />
+                    <Image width={400} height={400} src="https://i.postimg.cc/c4L6Gjc7/right-vector.webp" alt="Abstract modern right - Image by freepik" />
                 </div>
             </div>
 
             <div className="flex">
                 <div className="col flex-1 main-axis-center cross-axis-center hidden-mobile">
-                    <Image width={400} height={400} src="https://res.cloudinary.com/dlyfwab7x/image/upload/v1713744595/vectors/left_cu5vvy.webp" alt="Abstract modern left - Image by freepik" />
+                    <Image width={400} height={400} src="https://i.postimg.cc/tCvJq5rK/left-vector.webp" alt="Abstract modern left - Image by freepik" />
                 </div>
                 <div className="col flex-1 main-axis-center cross-axis-center">
                     <Text text={dictionary.about03} type="body" />
