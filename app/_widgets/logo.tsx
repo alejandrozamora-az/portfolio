@@ -6,7 +6,7 @@ export default function Logo() {
     return (
         <IconButton href="/" supportText="Home">
             <Image
-                src="https://res.cloudinary.com/dlyfwab7x/image/upload/v1725241350/AZ_white_dox6za.webp"
+                src="https://i.postimg.cc/R0DLwKVy/AZ-white.webp"
                 alt="Logo Alejandro Zamora"
                 width={80}
                 height={80}
