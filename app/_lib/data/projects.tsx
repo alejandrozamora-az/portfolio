@@ -27,7 +27,7 @@ export async function projectTypes(
                         t["prototipo-de-gestor-de-expedientes"].description01,
                         t["prototipo-de-gestor-de-expedientes"].description02
                     ],
-                    image: "https://res.cloudinary.com/dlyfwab7x/image/upload/v1704147584/projects/prototipo-de-gestor-de-expedientes/uf2hbkaogiwg9eo4mciq.webp",
+                    image: "https://i.postimg.cc/HxGDBJ6v/prototipo-de-gestor-de-expedientes.webp",
                     year: 2022,
                     technologies: [
                         AdobeXdIcon
@@ -45,7 +45,7 @@ export async function projectTypes(
                         t["gestor-de-expedientes-clinicos-citas-e-inventario"].description00,
                         t["gestor-de-expedientes-clinicos-citas-e-inventario"].description01
                     ],
-                    image: "https://res.cloudinary.com/dlyfwab7x/image/upload/v1704147639/projects/gestor-de-expedientes-clinicos-citas-e-inventario/llnd2ozaftdajaltik5u.webp",
+                    image: "https://i.postimg.cc/3NYMQs5g/gestor-de-expedientes-clinicos-citas-e-inventario.webp",
                     year: 2020,
                     technologies: [
                         AdobeXdIcon,
@@ -61,7 +61,7 @@ export async function projectTypes(
                         t["aplicacion-web-para-la-calidad"].description00,
                         t["aplicacion-web-para-la-calidad"].description01
                     ],
-                    image: "https://res.cloudinary.com/dlyfwab7x/image/upload/v1704147733/projects/aplicacion-web-para-la-calidad/lf5w3h5bzjlry2onwqsw.webp",
+                    image: "https://i.postimg.cc/wvhKP6Pq/aplicacion-web-para-la-calidad.webp",
                     year: 2023,
                     technologies: [
                         BlazorIcon,
