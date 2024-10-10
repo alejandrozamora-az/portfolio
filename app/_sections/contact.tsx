@@ -17,13 +17,12 @@ export default function Contact({
     dictionary: {
         sectionTitleText: string;
         copiedToClipboardText: string;
-        seeMoreText: string;
     }
 }) {
     return (
         <section className="flex gap-s py-l custom-section-fullvh custom-on-scroll-section">
             <div className="col flex-1 main-axis-center cross-axis-center hidden-mobile">
-                <Image width={455} height={400} src="https://res.cloudinary.com/dlyfwab7x/image/upload/v1713744478/vectors/Asset_1_qmmv2j.webp" alt="Abstract background with geometric design - Image by freepik" />
+                <Image width={455} height={400} src="https://i.postimg.cc/6pGW9N4Z/large-vector.webp" alt="Abstract background with geometric design - Image by freepik" />
             </div>
 
             <div className="col flex-1 gap-l main-axis-center cross-axis-center">
@@ -44,24 +43,13 @@ export default function Contact({
                         <EmailIcon className="icon" />
                     </IconButton>
                     <IconButton
-                        href="https://www.linkedin.com/in/alejandrozamoraaz"
+                        href="https://www.linkedin.com/in/alejandrozamora-az"
                         hrefExternal={true}
                         type="filled"
                         supportText="Go to link Linkedin"
                     >
                         <LinkedinIcon className="icon" />
                     </IconButton>
-                </div>
-
-                <div className="w-expand text-center">
-                    <Text text={dictionary.seeMoreText} type="bodySmall" />
-                    <Button
-                        href="https://linktr.ee/alejandrozamoraaz?subscribe"
-                        hrefExternal={true}
-                        supportText="linktr.ee"
-                    >
-                        <Text text="linktr.ee" />
-                    </Button>
                 </div>
             </div>
         </section>
