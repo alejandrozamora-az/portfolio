@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-small) var(--padding);
+    border-radius: var(--border-radius-large);
+    gap: var(--padding-small);
+    max-width: max-content;
+    line-break: strict;
+    word-break: break-all;
+}

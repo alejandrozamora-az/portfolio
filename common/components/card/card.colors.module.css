@@ -1,0 +1,7 @@
+.default {
+    background-color: color-mix(in var(--color-mix-type), var(--surface-color) 10%, var(--base-color));
+}
+
+.outlined {
+    border: 1px solid color-mix(in var(--color-mix-type), var(--surface-color) 20%, transparent);
+}

@@ -1,0 +1,94 @@
+.custom-root-html {
+    scrollbar-width: none;
+    scroll-timeline: --progress-scroll block;
+    scroll-behavior: smooth;
+}
+
+.custom-header-section-fullvh {
+    min-height: 80svh;
+}
+
+.custom-section-fullvh {
+    min-height: 100svh;
+}
+
+.custom-on-scroll-section {
+    view-timeline-axis: block;
+    animation-timeline: view();
+    animation-name: custom-on-scroll-section-animation;
+    animation-range: entry 5% cover 13%;
+    animation-fill-mode: both;
+}
+
+@keyframes custom-on-scroll-section-animation {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+.custom-footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.custom-action-button {
+    z-index: 1;
+    position: fixed;
+    left: auto;
+    right: var(--padding-small);
+    bottom: var(--padding);
+
+    animation: custom-action-button-animation 300ms linear both;
+    animation-timeline: --progress-scroll;
+    animation-range: entry 15% cover 20%;
+
+    &[dir="rtl"] & {
+        left: var(--padding-small);
+        right: auto;
+    }
+}
+
+@keyframes custom-action-button-animation {
+    0% {
+        opacity: 0;
+        display: none;
+        transform: translateY(100%);
+    }
+
+    30% {
+        transform: translateY(50%);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+.custom-badges-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+    /* For large screens */
+    @media (min-width: 700px) {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+.custom-project-image-responsive {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+    padding-left: var(--padding-small);
+    padding-right: var(--padding-small);
+}

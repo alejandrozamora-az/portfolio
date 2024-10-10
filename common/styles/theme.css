@@ -1,0 +1,29 @@
+body {
+    color: color-mix(in var(--color-mix-type), var(--primary-color) 25%, var(--surface-color));
+    background: linear-gradient(to bottom,
+            var(--base-color),
+            color-mix(in var(--color-mix-type), var(--primary-color) 15%, var(--base-color)) 20%,
+            var(--base-color) 30%,
+            color-mix(in var(--color-mix-type), var(--primary-color) 8%, var(--base-color)) 90%);
+}
+
+body::selection {
+    color: var(--surface-color);
+}
+
+.gradient-color {
+    background: linear-gradient(33deg,
+            var(--primary-color),
+            var(--secondary-color) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}

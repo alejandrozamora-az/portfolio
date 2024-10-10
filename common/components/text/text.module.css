@@ -1,0 +1,28 @@
+.bodySmall {
+    font-size: var(--font-size-body-small);
+    font-weight: 400;
+}
+
+.body {
+    font-size: var(--font-size-body);
+    font-weight: 600;
+}
+
+.bodyLarge {
+    font-size: var(--font-size-body-large);
+    font-weight: 900;
+}
+
+.title {
+    font-size: var(--font-size-title);
+    font-weight: 900;
+}
+
+.headline {
+    font-size: var(--font-size-headline);
+    font-weight: 900;
+}
+
+.textCenter {
+    vertical-align: middle;
+}

@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    height: max-content;
+    min-width: var(--icon-button-size);
+    min-height: var(--icon-button-size);
+    padding: var(--icon-button-padding);
+    border-radius: var(--icon-button-border-radius);
+}

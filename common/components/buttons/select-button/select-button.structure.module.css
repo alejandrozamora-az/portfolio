@@ -1,0 +1,25 @@
+.container {
+    position: relative;
+}
+
+.items {
+    display: none;
+    position: absolute;
+    top: 100%;
+    margin-top: var(--padding-small);
+    width: 100%;
+    border-radius: var(--border-radius);
+    z-index: 1;
+    padding: var(--padding-small);
+}
+
+.itemButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: var(--text-button-size);
+    padding: var(--text-button-padding) calc(var(--text-button-padding) * 3);
+    border-radius: var(--text-button-border-radius);
+    gap: var(--padding-small);
+}

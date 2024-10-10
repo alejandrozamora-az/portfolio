@@ -1,0 +1,33 @@
+:root {
+    --color-mix-type: srgb;
+    --base-color: #000000;
+    --surface-color: #ffffff;
+    --primary-color: #641faf;
+    --secondary-color: #333cbf;
+
+    --font-size-body-small: minmax(10px, calc(0.4rem + 1vw));
+    --font-size-body: calc(0.8rem + 1vw);
+    --font-size-body-large: calc(1.1rem + 1vw);
+    --font-size-title: calc(2.3rem + 1vw);
+    --font-size-headline: calc(4rem + 1vw);
+
+    --icon-normal-size: 24px;
+    --icon-large-size: 48px;
+    --icon-extra-large-size: 80px;
+
+    --icon-button-size: 48px;
+    --icon-button-padding: 3px;
+    --icon-button-border-radius: 16px;
+
+    --text-button-size: 48px;
+    --text-button-padding: 4px;
+    --text-button-border-radius: 16px;
+
+    --border-radius-small: 8px;
+    --border-radius: 24px;
+    --border-radius-large: 45px;
+
+    --padding-small: 8px;
+    --padding: 16px;
+    --padding-large: 24px;
+}

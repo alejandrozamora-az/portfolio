@@ -1,0 +1,16 @@
+.primary {
+    --scoped-current-color: var(--primary-color);
+}
+
+.secondary {
+    --scoped-current-color: var(--secondary-color);
+}
+
+.buttonDefault {
+    -webkit-tap-highlight-color: transparent;
+    color: color-mix(in var(--color-mix-type), var(--scoped-current-color) 30%, var(--surface-color));
+}
+
+.buttonDefault:hover {
+    background-color: color-mix(in var(--color-mix-type), var(--scoped-current-color) 10%, var(--base-color));
+}

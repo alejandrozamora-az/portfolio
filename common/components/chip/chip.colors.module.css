@@ -1,0 +1,4 @@
+.default {
+    color: var(--surface-color);
+    background-color: color-mix(in var(--color-mix-type), var(--surface-color) 6%, var(--base-color));
+}

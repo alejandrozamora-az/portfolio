@@ -1,0 +1,26 @@
+.surface {
+    background-color: color-mix(in var(--color-mix-type), var(--surface-color) 10%, var(--base-color));
+}
+
+.primary {
+    --scoped-current-color: var(--primary-color);
+}
+
+.secondary {
+    --scoped-current-color: var(--secondary-color);
+}
+
+.default {
+    -webkit-tap-highlight-color: transparent;
+    color: color-mix(in var(--color-mix-type), var(--scoped-current-color) 30%, var(--surface-color));
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.default:hover {
+    background-color: color-mix(in var(--color-mix-type), var(--scoped-current-color) 30%, var(--base-color));
+}
+
+.selected {
+    background-color: color-mix(in var(--color-mix-type), var(--scoped-current-color) 70%, var(--base-color));
+}

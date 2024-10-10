@@ -1,0 +1,24 @@
+.primary {
+    --scoped-current-color: var(--primary-color);
+}
+
+.secondary {
+    --scoped-current-color: var(--secondary-color);
+}
+
+.common {
+    -webkit-tap-highlight-color: transparent;
+    color: color-mix(in var(--color-mix-type), var(--scoped-current-color) 30%, var(--surface-color));
+}
+
+.default:hover {
+    background-color: color-mix(in var(--color-mix-type), var(--scoped-current-color) 30%, var(--base-color));
+}
+
+.filled {
+    background-color: color-mix(in var(--color-mix-type), var(--scoped-current-color) 70%, var(--base-color));
+}
+
+.filled:hover {
+    background-color: color-mix(in var(--color-mix-type), var(--scoped-current-color) 100%, var(--base-color));
+}

@@ -1,0 +1,20 @@
+.shine {
+    position: relative;
+    overflow: hidden;
+}
+
+.shine:hover::before {
+    opacity: 0.2;
+}
+
+.shine::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    filter: blur(35px);
+    background-image: conic-gradient(from 205deg, transparent 0deg, var(--primary-color) 25deg, transparent 295deg, color-mix(in var(--color-mix-type), var(--primary-color) 25%, transparent) 360deg);
+}

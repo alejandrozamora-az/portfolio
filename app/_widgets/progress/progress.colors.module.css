@@ -1,0 +1,11 @@
+.backgroundPrimary {
+    background-color: color-mix(in var(--color-mix-type), var(--primary-color) 20%, var(--base-color));
+}
+
+.endIndicatorForegroundPrimary {
+    background-color: var(--primary-color);
+}
+
+.foregroundPrimary {
+    background: linear-gradient(33deg, var(--primary-color), var(--secondary-color), var(--primary-color));
+}
