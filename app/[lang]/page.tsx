@@ -39,8 +39,7 @@ export default async function Home({
       <span id="contact-section"></span>
       <ContactSection dictionary={{
         sectionTitleText: dictionary.contact_section.title,
-        copiedToClipboardText: dictionary.common.copied_to_clipboard,
-        seeMoreText: dictionary.contact_section.see_more
+        copiedToClipboardText: dictionary.common.copied_to_clipboard
       }} />
     </div>
   );
