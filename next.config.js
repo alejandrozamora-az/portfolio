@@ -4,8 +4,8 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'res.cloudinary.com',
-                pathname: '/dlyfwab7x/image/upload/**',
+                hostname: 'i.postimg.cc',
+                pathname: '/**',
             },
         ],
     },
