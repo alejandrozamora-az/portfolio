@@ -84,7 +84,7 @@ export default async function RootLayout({
             <div className="col gap-s main-axis-center cross-axis-center">
               <Chip text={dictionary.see_project} textType="body">
                 <IconButton
-                  href="https://github.com/alejandrozamoraaz/portfolio"
+                  href="https://github.com/alejandrozamora-az/portfolio"
                   hrefExternal={true}
                   supportText="Github"
                 >
